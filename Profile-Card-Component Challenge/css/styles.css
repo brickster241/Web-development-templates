@@ -1,0 +1,83 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-size: 18px;
+  font-family: 'Kumbh-Sans', sans-serif;
+}
+
+hr {
+  border-top: 3px;
+}
+
+span {
+  font-weight: 400;
+  color: hsl(229, 23%, 23%);
+  margin-left: 5px;
+}
+.bg-top {
+  position: absolute;
+  right: 800px;
+  bottom: 300px;
+  z-index: -1;
+}
+
+.bg-bot {
+  position: absolute;
+  left: 800px;
+  top: 300px;
+  z-index: -1;
+}
+
+.bg-card {
+  margin: 130px auto 0;
+  display: block;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.content {
+  height: 160px;
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 65px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+h4 {
+  margin-top: 4px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+h5 {
+  margin-top: 13px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 3px;
+  font-weight: 300;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 1px;
+}
+
+.FLP {
+  margin-top: 13px;
+  display: inline-block;
+  width: 30%;
+}
+
+.profile-pic {
+  border-radius: 50px;
+  position: absolute;
+  top: 225px;
+  left: 720px;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border: solid 4px white;
+}
